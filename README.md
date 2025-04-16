@@ -16,7 +16,7 @@ Our team aims to detect if a credit card transaction is fraudulent.
  ┃ ┣ 📜train_data.csv
  ┃ ┗ 📜test_data.csv
  ┃
- ┣ 📂feature
+ ┣ 📂features
  ┃ ┗ 📜feature_engineering.ipynb
  ┃
  ┗ 📂Models
