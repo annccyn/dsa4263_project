@@ -16,6 +16,9 @@ Our team aims to detect if a credit card transaction is fraudulent.
  ┃ ┣ 📜train_data.csv
  ┃ ┗ 📜test_data.csv
  ┃
+ ┣ 📂features
+ ┃ ┗📜feature_engineering.ipynb
+ ┃
  ┗ 📜Model Run with Test Data.ipynb
    ┗ Trained Random Forest model with Lasso feature selection
 
@@ -27,10 +30,13 @@ Our team aims to detect if a credit card transaction is fraudulent.
  ┃ ┣ 📜train_data.csv
  ┃ ┗ 📜test_data.csv
  ┃
+ ┣ 📂features
+ ┃ ┗ 📜feature_engineering.ipynb
+ ┃
  ┗ 📂Models
    ┣ 📜Logistic Regression
-   ┣ 📜Random Forest
-   ┗ 📜XGBoost
+   ┣ 📜randomforest.ipynb
+   ┗ 📜xgboost.ipynb
 
 📦Development
  ┣ 📜README.md
