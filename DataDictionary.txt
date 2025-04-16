@@ -1,0 +1,25 @@
+Variable Name           | Data Type | Description
+------------------------|-----------|---------------------------------------------------------------
+ssn                     | String    | Customer’s social security number
+cc_num                  | int64     | Credit card number
+first                   | String    | Customer’s first name
+last                    | String    | Customer’s last name
+gender                  | String    | Customer’s gender
+city                    | String    | City name
+state                   | String    | State name (only in the context of USA)
+zip                     | int64     | Zip code
+city_pop                | int64     | City population
+job                     | String    | Customer’s job
+dob                     | String    | Customer’s date of birth
+acct_num                | int64     | Customer’s bank account number
+trans_num               | String    | Transaction number
+trans_date              | String    | Transaction date
+trans_time              | String    | Transaction timestamp
+unix_time               | int64     | Transaction timestamp in unixtime
+category                | String    | Category of purchase
+amt                     | Float     | Quantity transacted
+is_fraud                | int64     | Fraud label (0: Non-fraud, 1: Fraud)
+merchant                | String    | Merchant name
+
+
+
