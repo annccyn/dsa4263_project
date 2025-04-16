@@ -19,7 +19,7 @@ Our team aims to detect if a credit card transaction is fraudulent.
  ┣ 📂features
  ┃ ┗ 📜feature_engineering.ipynb
  ┃
- ┗ 📂Models
+ ┗ 📂models
    ┣ 📜Logistic Regression
    ┣ 📜randomforest.ipynb
    ┗ 📜xgboost.ipynb
