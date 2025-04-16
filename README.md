@@ -16,10 +16,13 @@ Our team aims to detect if a credit card transaction is fraudulent.
  ┃ ┣ 📜train_data.csv
  ┃ ┗ 📜test_data.csv
  ┃
+ ┣ 📂feature
+ ┃ ┗ 📜feature_engineering.ipynb
+ ┃
  ┗ 📂Models
    ┣ 📜Logistic Regression
-   ┣ 📜Random Forest
-   ┗ 📜XGBoost
+   ┣ 📜randomforest.ipynb
+   ┗ 📜xgboost.ipynb
 ```
 
 ## Datasets used:
