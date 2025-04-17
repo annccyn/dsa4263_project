@@ -30,7 +30,6 @@ Our team aims to detect if a credit card transaction is fraudulent.
    ┗ 📂models
      ┗ 📜logistic_regression.ipynb                    <- Logistic Regression model jupyter notebook
 ```
-```
 
 ## Datasets used:
 Synthetically generated dataset was obtained from [Hugging Face](https://huggingface.co/datasets/Nooha/cc_fraud_detection_dataset).
