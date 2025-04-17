@@ -6,7 +6,7 @@ With the rise in popularity of cashless transactions, many users all around the 
 ## Objective
 Our team aims to detect if a credit card transaction is fraudulent.
 
-## Repository Structure
+## Overall Repository Structure (Current branch)
 ```
 📦Development
  ┣ 📜README.md
@@ -21,7 +21,7 @@ Our team aims to detect if a credit card transaction is fraudulent.
 
 ## Datasets used:
 Synthetically generated dataset was obtained from [Hugging Face](https://huggingface.co/datasets/Nooha/cc_fraud_detection_dataset).
-- Data dictionary can be found in `DataDictionary.txt`.
+- Data dictionary can be found in `DataDictionary.txt` in `prod` branch.
 
 
 For our code, we referred to the following csv files, uploaded in [Google Drive](https://drive.google.com/file/d/1kYtxS3LhSl9DR_ONA7qdJCclRGx4t3bK/view?usp=drive_link).
@@ -35,16 +35,17 @@ Utilising the labels in the original dataset, our project considered following s
 - Random Forest Classifier
 - XGBoost Classifier
 
-We chose Random Forest with Group Lasso as our final model for prediction of test cases.
+We chose XGBoost with Group Lasso as our final model for prediction of test cases.
 
 ## How to run the Project
-- Download files from above Google Drive link, add to `/data` folder
+Download files from above Google Drive link, add to `/data` folder
 
-- Steps of running the files:
-    1. `dev` branch: EDA and Feature Engineering .ipynb files
-    2. `staging` branch: Model training .ipynb files
-    3. `prod` branch: Final model.ipynb <TO UPDATE>
-
-
-
-        
+Running the files:
+* `dev` branch:
+    * `/src/EDA/EDA.ipynb`
+    * `/src/features/feature_engineering.ipynb`
+* `staging` branch:
+    * `/models/<training model>.ipynb`
+* `prod` branch:
+    *  `/src/final_model.ipynb`
+    *  `/src/test_final_model.ipynb`
