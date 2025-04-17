@@ -24,55 +24,20 @@ Our team aims to detect if a credit card transaction is fraudulent.
  ┃ ┣ 📜train_data.csv                                 <- Train data
  ┃ ┗ 📜test_data.csv                                  <- Test data
  ┃
- ┣ 📂features
- ┃ ┗ 📜feature_engineering.ipynb                       <- Feature engineering jupyter notebook
- ┃
- ┗ 📜models                                           <- Trained Random Forest model with Lasso feature selection
-   ┗ 📜final_model.ipynb                               <- Feature engineering jupyter notebook
-
-
-📦Staging
- ┣ 📜README.md                                        <- README file for staging branch
- ┃
- ┣ 📜DataDictionary.txt                               <- Data dictionary for raw data
- ┃
- ┣ 📜requirements.txt                                 <- Package requirements to run files
- ┃
- ┣ 📂data
- ┃ ┣ 📜raw_data.csv                                   <- Raw data from data source
- ┃ ┣ 📜train_data.csv                                 <- Train data
- ┃ ┗ 📜test_data.csv                                  <- Test data
+ ┣ 📂EDA
+ ┃ ┗ 📜EDA.ipynb                                      <- Exploratory data analysis for hypothesis and 
  ┃
  ┣ 📂features
- ┃ ┗📜feature_engineering.ipynb                       <- Feature engineering jupyter notebook
+ ┃ ┗ 📜feature_engineering.ipynb                      <- Feature engineering jupyter notebook
  ┃
- ┗ 📂models
-   ┣ 📜logistic_regression_staging.ipynb              <- Logistic Regression model jupyter notebook
-   ┣ 📜randomforest_staging.ipynb                     <- Random Forest model jupyter notebook
-   ┗ 📜xgboost_staging.ipynb                          <- XGBoost model jupyter notebook
-
-📦Development
- ┣ 📜README.md                                        <- README file for Development branch
- ┃
- ┣ 📜DataDictionary.txt                               <- Data dictionary for raw data
- ┃
- ┣ 📜requirements.txt                                 <- Package requirements to run files
- ┃
- ┣ 📂data
- ┃ ┣ 📜raw_data.csv                                   <- Raw data from data source
- ┃ ┣ 📜train_data.csv                                 <- Train data
- ┃ ┗ 📜test_data.csv                                  <- Test data
- ┃
- ┗ 📂src
-   ┣ 📂EDA
-   ┃ ┗ 📜EDA.ipynb                                    <- Exploratory data analysis for hypothesis and visualisation
+ ┗ 📂models                                   
+   ┣ 📂testing_models
+   ┃ ┣ 📜logistic_regression_staging.ipynb            <- Logistic Regression model jupyter notebook
+   ┃ ┣ 📜random_forest_staging.ipynb                  <- Random Forest model jupyter notebook
+   ┃ ┗ 📜xgboost_staging.ipynb                        <- XGBoost model jupyter notebook
    ┃
-   ┣ 📂features
-   ┃ ┗ 📜feature_engineering.ipynb                    <- Feature engineering jupyter notebook
-   ┃
-   ┗ 📂 models
-     ┗ 📜logistic_regression.ipynb                    <- Logistic Regression model jupyter notebook
-
+   ┗ 📂final_model
+     ┗ 📜final_model.ipynb                            <- Trained Random Forest model with Lasso feature selection
 ```
 
 ## Datasets used:
