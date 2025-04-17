@@ -11,6 +11,8 @@ Our team aims to detect if a credit card transaction is fraudulent.
 📦Staging
  ┣ 📜README.md                                        <- README file for production branch
  ┃
+ ┣ 📜DataDictionary.txt                               <- Data dictionary for raw data
+ ┃
  ┣ 📂data
  ┃ ┣ 📜raw_data.csv                                   <- Raw data from data source
  ┃ ┣ 📜train_data.csv                                 <- Train data
@@ -19,10 +21,10 @@ Our team aims to detect if a credit card transaction is fraudulent.
  ┣ 📂features
  ┃ ┗📜feature_engineering.ipynb                       <- Feature engineering jupyter notebook
  ┃
- ┗ 📂Models
-   ┣ 📜Logistic Regression                            <- Logistic Regression model jupyter notebook
-   ┣ 📜randomforest.ipynb                             <- Random Forest model jupyter notebook
-   ┗ 📜xgboost.ipynb                                  <- XGBoost model jupyter notebook
+ ┗ 📂models
+   ┣ 📜logistic_regression_staging.ipynb              <- Logistic Regression model jupyter notebook
+   ┣ 📜randomforest_staging.ipynb                     <- Random Forest model jupyter notebook
+   ┗ 📜xgboost_staging.ipynb                          <- XGBoost model jupyter notebook
 ```
 
 
