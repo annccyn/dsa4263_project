@@ -9,14 +9,20 @@ Our team aims to detect if a credit card transaction is fraudulent.
 ## Repository Structure (Current branch)
 ```
 📦Development
+ ┣ 📜DataDictionary.txt
  ┣ 📜README.md
+ ┣ 📜requirements.txt
  ┃
  ┗ 📂src
    ┣ 📂EDA
    ┃ ┗ 📜EDA.ipynb                                    <- Exploratory data analysis for hypothesis and visualisation
    ┃
-   ┗ 📂features
-     ┗ 📜feature_engineering.ipynb                    <- Feature engineering jupyter notebook
+   ┣ 📂features
+   ┃ ┗ 📜feature_engineering.ipynb                    <- Feature engineering jupyter notebook
+   ┃
+   ┗ 📂models
+     ┗ 📜logistic_regression.ipynb                    <- Baseline logistic regression model
+```
 ```
 
 ## Datasets used:
