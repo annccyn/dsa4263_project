@@ -9,44 +9,43 @@ Our team aims to detect if a credit card transaction is fraudulent.
 ## Overall Repository Structure
 ```
 📦Production
- ┣ 📜README.md
+ ┣ 📜README.md                                        <- README file for production branch
  ┃
  ┣ 📂data
- ┃ ┣ 📜raw_data.csv
- ┃ ┣ 📜train_data.csv
- ┃ ┗ 📜test_data.csv
+ ┃ ┣ 📜raw_data.csv                                   <- Raw data from data source
+ ┃ ┣ 📜train_data.csv                                 <- Train data
+ ┃ ┗ 📜test_data.csv                                  <- Test data
  ┃
  ┣ 📂features
- ┃ ┗📜feature_engineering.ipynb
+ ┃ ┗📜feature_engineering.ipynb                       <- Feature engieering jupyter notebook
  ┃
- ┗ 📜Model Run with Test Data.ipynb
-   ┗ Trained Random Forest model with Lasso feature selection
+ ┗ 📜Model Run with Test Data.ipynb                   <- Trained Random Forest model with Lasso feature selection
 
 📦Staging
- ┣ 📜README.md
+ ┣ 📜README.md                                        <- README file for production branch
  ┃
  ┣ 📂data
- ┃ ┣ 📜raw_data.csv
- ┃ ┣ 📜train_data.csv
- ┃ ┗ 📜test_data.csv
+ ┃ ┣ 📜raw_data.csv                                   <- Raw data from data source
+ ┃ ┣ 📜train_data.csv                                 <- Train data
+ ┃ ┗ 📜test_data.csv                                  <- Test data
  ┃
  ┣ 📂features
- ┃ ┗ 📜feature_engineering.ipynb
+ ┃ ┗📜feature_engineering.ipynb                       <- Feature engieering jupyter notebook
  ┃
  ┗ 📂Models
-   ┣ 📜Logistic Regression
-   ┣ 📜randomforest.ipynb
-   ┗ 📜xgboost.ipynb
+   ┣ 📜Logistic Regression                            <- Logistic Regression model jupyter notebook
+   ┣ 📜randomforest.ipynb                             <- Random Forest model jupyter notebook
+   ┗ 📜xgboost.ipynb                                  <- XGBoost model jupyter notebook
 
 📦Development
  ┣ 📜README.md
  ┃
  ┗ 📂src
    ┣ 📂EDA
-   ┃ ┗ 📜EDA.ipynb
+   ┃ ┗ 📜EDA.ipynb                                    <- Exploratory data analysis for hypothesis and visualisation
    ┃
    ┗ 📂features
-     ┗ 📜feature_engineering.ipynb
+     ┗ 📜feature_engineering.ipynb                    <- Feature engieering jupyter notebook
 ```
 
 ## Datasets used:
