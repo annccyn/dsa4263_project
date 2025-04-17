@@ -61,10 +61,11 @@ We chose XGBoost with Lasso as our final model for prediction of test cases.
 Download files from above Google Drive link, add to `/data` folder
 
 Running the files:
-* `dev` branch:
-    * `/src/EDA/EDA.ipynb`
+* EDA:
+    * `/EDA/EDA.ipynb`
+* Feature Engineering:   
     * `/src/features/feature_engineering.ipynb`
-* `staging` branch:
-    * `/models/<training model>.ipynb`
-* `prod` branch:
-    *  `/models/final_model.ipynb`
+* Testing Models:
+    * `/models/testing_models/<model>.ipynb`
+* Production Model:
+    *  `/models/final_model/final_model.ipynb`
