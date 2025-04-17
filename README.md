@@ -13,10 +13,10 @@ Our team aims to detect if a credit card transaction is fraudulent.
  ┃
  ┗ 📂src
    ┣ 📂EDA
-   ┃ ┗ 📜EDA.ipynb
+   ┃ ┗ 📜EDA.ipynb                                    <- Exploratory data analysis for hypothesis and visualisation
    ┃
    ┗ 📂features
-     ┗ 📜feature_engineering.ipynb
+     ┗ 📜feature_engineering.ipynb                    <- Feature engieering jupyter notebook
 ```
 
 ## Datasets used:
