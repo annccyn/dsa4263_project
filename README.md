@@ -9,9 +9,9 @@ Our team aims to detect if a credit card transaction is fraudulent.
 ## Repository Structure (Current branch)
 ```
 📦Development
- ┣ 📜DataDictionary.txt
+ ┣ 📜README.md                                        <- README file for Development branch
  ┃
- ┣ 📜README.md
+ ┣ 📜DataDictionary.txt                               <- Data dictionary for raw data
  ┃
  ┣ 📜requirements.txt
  ┃
