@@ -47,7 +47,7 @@ We chose XGBoost with Group Lasso as our final model for prediction of test case
 Download files from above Google Drive link, add to `/data` folder
 
 Running the files:
- `dev` branch:
+* `dev` branch:
     * `/src/EDA/EDA.ipynb`
     * `/src/features/feature_engineering.ipynb`
 * `staging` branch:
