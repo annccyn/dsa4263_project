@@ -21,10 +21,10 @@ Our team aims to detect if a credit card transaction is fraudulent.
  ┃ ┗ 📜test_data.csv                                  <- Test data
  ┃
  ┣ 📂features
- ┃ ┗📜feature_engineering.ipynb                       <- Feature engineering jupyter notebook
+ ┃ ┗ 📜feature_engineering.ipynb                       <- Feature engineering jupyter notebook
  ┃
  ┗ 📜models                                           <- Trained Random Forest model with Lasso feature selection
-   ┗📜final_model.ipynb                               <- Feature engineering jupyter notebook
+   ┗ 📜final_model.ipynb                               <- Feature engineering jupyter notebook
 
 
 📦Staging
@@ -48,18 +48,27 @@ Our team aims to detect if a credit card transaction is fraudulent.
    ┗ 📜xgboost_staging.ipynb                          <- XGBoost model jupyter notebook
 
 📦Development
- ┣ 📜README.md                                        <- README file for development branch
+ ┣ 📜README.md                                        <- README file for Development branch
  ┃
  ┣ 📜DataDictionary.txt                               <- Data dictionary for raw data
  ┃
  ┣ 📜requirements.txt                                 <- Package requirements to run files
  ┃
+ ┣ 📂data
+ ┃ ┣ 📜raw_data.csv                                   <- Raw data from data source
+ ┃ ┣ 📜train_data.csv                                 <- Train data
+ ┃ ┗ 📜test_data.csv                                  <- Test data
+ ┃
  ┗ 📂src
    ┣ 📂EDA
    ┃ ┗ 📜EDA.ipynb                                    <- Exploratory data analysis for hypothesis and visualisation
    ┃
-   ┗ 📂features
-     ┗ 📜feature_engineering.ipynb                    <- Feature engineering jupyter notebook
+   ┣ 📂features
+   ┃ ┗ 📜feature_engineering.ipynb                    <- Feature engineering jupyter notebook
+   ┃
+   ┗ 📂 models
+     ┗ 📜logistic_regression.ipynb                    <- Logistic Regression model jupyter notebook
+
 ```
 
 ## Datasets used:
