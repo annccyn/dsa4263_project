@@ -58,5 +58,4 @@ Running the files:
 * `staging` branch:
     * `/models/<training model>.ipynb`
 * `prod` branch:
-    *  `/src/final_model.ipynb`
-    *  `/src/test_final_model.ipynb`
+    *  `/models/final_model.ipynb`
