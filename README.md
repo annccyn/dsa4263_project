@@ -23,7 +23,7 @@ Our team aims to detect if a credit card transaction is fraudulent.
  ┣ 📂features
  ┃ ┗📜feature_engineering.ipynb                       <- Feature engineering jupyter notebook
  ┃
- ┗ 📜src                                              <- Trained Random Forest model with Lasso feature selection
+ ┗ 📜models                                           <- Trained Random Forest model with Lasso feature selection
    ┗📜final_model.ipynb                               <- Feature engineering jupyter notebook
 
 
