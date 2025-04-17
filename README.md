@@ -9,9 +9,11 @@ Our team aims to detect if a credit card transaction is fraudulent.
 ## Repository Structure (Current Branch)
 ```
 📦Staging
- ┣ 📜README.md                                        <- README file for production branch
+ ┣ 📜README.md                                        <- README file for staging branch
  ┃
  ┣ 📜DataDictionary.txt                               <- Data dictionary for raw data
+ ┃
+ ┣ 📜requirements.txt                                 <- Package requirements to run files
  ┃
  ┣ 📂data
  ┃ ┣ 📜raw_data.csv                                   <- Raw data from data source
