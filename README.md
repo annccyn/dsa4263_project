@@ -55,7 +55,7 @@ Utilising the labels in the original dataset, our project considered following s
 - Random Forest Classifier
 - XGBoost Classifier
 
-We chose XGBoost with Group Lasso as our final model for prediction of test cases.
+We chose XGBoost with Lasso as our final model for prediction of test cases.
 
 ## How to run the Project
 Download files from above Google Drive link, add to `/data` folder
