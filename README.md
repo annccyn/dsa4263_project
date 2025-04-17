@@ -28,7 +28,7 @@ Our team aims to detect if a credit card transaction is fraudulent.
    ┃ ┗ 📜feature_engineering.ipynb                    <- Feature engineering jupyter notebook
    ┃
    ┗ 📂models
-     ┗ 📜logistic_regression.ipynb                    <- Baseline logistic regression model
+     ┗ 📜logistic_regression.ipynb                    <- Logistic Regression model jupyter notebook
 ```
 ```
 
