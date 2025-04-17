@@ -64,7 +64,7 @@ Running the files:
 * EDA:
     * `/EDA/EDA.ipynb`
 * Feature Engineering:   
-    * `/src/features/feature_engineering.ipynb`
+    * `/features/feature_engineering.ipynb`
 * Testing Models:
     * `/models/testing_models/<model>.ipynb`
 * Production Model:
