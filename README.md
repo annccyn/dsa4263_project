@@ -51,7 +51,7 @@ Our team aims to detect if a credit card transaction is fraudulent.
 
 ## Datasets used:
 Synthetically generated dataset was obtained from [Hugging Face](https://huggingface.co/datasets/Nooha/cc_fraud_detection_dataset).
-- Data dictionary can be found in `DataDictionary.txt` in `prod` branch.
+- Data dictionary can be found in `DataDictionary.txt`.
 
 
 For our code, we referred to the following csv files, uploaded in [Google Drive](https://drive.google.com/file/d/1kYtxS3LhSl9DR_ONA7qdJCclRGx4t3bK/view?usp=drive_link).
