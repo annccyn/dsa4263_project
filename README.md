@@ -24,11 +24,8 @@ Our team aims to detect if a credit card transaction is fraudulent.
    ┣ 📂EDA
    ┃ ┗ 📜EDA.ipynb                                    <- Exploratory data analysis for hypothesis and visualisation
    ┃
-   ┣ 📂features
-   ┃ ┗ 📜feature_engineering.ipynb                    <- Feature engineering jupyter notebook
-   ┃
-   ┗ 📂models
-     ┗ 📜logistic_regression.ipynb                    <- Logistic Regression model jupyter notebook
+   ┗ 📂features
+     ┗ 📜feature_engineering.ipynb                    <- Feature engineering jupyter notebook
 ```
 
 ## Datasets used:
