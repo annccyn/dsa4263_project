@@ -6,7 +6,7 @@ With the rise in popularity of cashless transactions, many users all around the 
 ## Objective
 Our team aims to detect if a credit card transaction is fraudulent.
 
-## Overall Repository Structure (Current branch)
+## Repository Structure (Current branch)
 ```
 📦Development
  ┣ 📜README.md
