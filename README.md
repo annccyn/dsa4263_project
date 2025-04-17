@@ -44,12 +44,13 @@ Utilising the labels in the original dataset, our project considered following s
 We chose XGBoost with Group Lasso as our final model for prediction of test cases.
 
 ## How to run the Project
-- Download files from above Google Drive link, add to `/data` folder
+Download files from above Google Drive link, add to `/data` folder
 
-- Running the files:
-    1. `dev` branch:
-      - `/src/EDA/EDA.ipynb`
-      - `/src/features/feature_engineering.ipynb`
-    2. `staging` branch:
-      - `/models/<training model>.ipynb`
-    3. `prod` branch: /src/`final_model.ipynb`
+Running the files:
+* `dev` branch:
+ * `/src/EDA/EDA.ipynb`
+ * `/src/features/feature_engineering.ipynb`
+* `staging` branch:
+ * `/models/<training model>.ipynb`
+* `prod` branch:
+ *  `/src/final_model.ipynb`
