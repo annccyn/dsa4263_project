@@ -13,7 +13,7 @@ Our team aims to detect if a credit card transaction is fraudulent.
  ┃
  ┣ 📜DataDictionary.txt                               <- Data dictionary for raw data
  ┃
- ┣ 📜requirements.txt
+ ┣ 📜requirements.txt                                 <- Package requirements to run files
  ┃
  ┣ 📂data
  ┃ ┣ 📜raw_data.csv                                   <- Raw data from data source
