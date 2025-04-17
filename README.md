@@ -13,6 +13,8 @@ Our team aims to detect if a credit card transaction is fraudulent.
  ┃
  ┣ 📜DataDictionary.txt                               <- Data dictionary for raw data
  ┃
+ ┣ 📜requirements.txt                                 <- Package requirements to run files
+ ┃
  ┣ 📂data
  ┃ ┣ 📜raw_data.csv                                   <- Raw data from data source
  ┃ ┣ 📜train_data.csv                                 <- Train data
@@ -26,9 +28,11 @@ Our team aims to detect if a credit card transaction is fraudulent.
 
 
 📦Staging
- ┣ 📜README.md                                        <- README file for production branch
+ ┣ 📜README.md                                        <- README file for staging branch
  ┃
  ┣ 📜DataDictionary.txt                               <- Data dictionary for raw data
+ ┃
+ ┣ 📜requirements.txt                                 <- Package requirements to run files
  ┃
  ┣ 📂data
  ┃ ┣ 📜raw_data.csv                                   <- Raw data from data source
@@ -44,7 +48,11 @@ Our team aims to detect if a credit card transaction is fraudulent.
    ┗ 📜xgboost_staging.ipynb                          <- XGBoost model jupyter notebook
 
 📦Development
- ┣ 📜README.md
+ ┣ 📜README.md                                        <- README file for development branch
+ ┃
+ ┣ 📜DataDictionary.txt                               <- Data dictionary for raw data
+ ┃
+ ┣ 📜requirements.txt                                 <- Package requirements to run files
  ┃
  ┗ 📂src
    ┣ 📂EDA
