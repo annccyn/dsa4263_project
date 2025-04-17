@@ -9,20 +9,20 @@ Our team aims to detect if a credit card transaction is fraudulent.
 ## Repository Structure (Current Branch)
 ```
 📦Staging
- ┣ 📜README.md
+ ┣ 📜README.md                                        <- README file for production branch
  ┃
  ┣ 📂data
- ┃ ┣ 📜raw_data.csv
- ┃ ┣ 📜train_data.csv
- ┃ ┗ 📜test_data.csv
+ ┃ ┣ 📜raw_data.csv                                   <- Raw data from data source
+ ┃ ┣ 📜train_data.csv                                 <- Train data
+ ┃ ┗ 📜test_data.csv                                  <- Test data
  ┃
  ┣ 📂features
- ┃ ┗ 📜feature_engineering.ipynb
+ ┃ ┗📜feature_engineering.ipynb                       <- Feature engieering jupyter notebook
  ┃
- ┗ 📂models
-   ┣ 📜Logistic Regression
-   ┣ 📜randomforest.ipynb
-   ┗ 📜xgboost.ipynb
+ ┗ 📂Models
+   ┣ 📜Logistic Regression                            <- Logistic Regression model jupyter notebook
+   ┣ 📜randomforest.ipynb                             <- Random Forest model jupyter notebook
+   ┗ 📜xgboost.ipynb                                  <- XGBoost model jupyter notebook
 ```
 
 
