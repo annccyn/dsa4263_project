@@ -10,8 +10,15 @@ Our team aims to detect if a credit card transaction is fraudulent.
 ```
 📦Development
  ┣ 📜DataDictionary.txt
+ ┃
  ┣ 📜README.md
+ ┃
  ┣ 📜requirements.txt
+ ┃
+ ┣ 📂data
+ ┃ ┣ 📜raw_data.csv                                   <- Raw data from data source
+ ┃ ┣ 📜train_data.csv                                 <- Train data
+ ┃ ┗ 📜test_data.csv                                  <- Test data
  ┃
  ┗ 📂src
    ┣ 📂EDA
