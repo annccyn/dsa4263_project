@@ -37,7 +37,7 @@ Our team aims to detect if a credit card transaction is fraudulent.
    ┃ ┗ 📜xgboost_staging.ipynb                        <- XGBoost model jupyter notebook
    ┃
    ┗ 📂final_model
-     ┗ 📜final_model.ipynb                            <- Trained Random Forest model with Lasso feature selection
+     ┗ 📜final_model.ipynb                            <- Trained XGBoost model with Lasso feature selection
 ```
 
 ## Datasets used:
