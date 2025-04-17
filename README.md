@@ -17,7 +17,7 @@ Our team aims to detect if a credit card transaction is fraudulent.
  ┃ ┗ 📜test_data.csv                                  <- Test data
  ┃
  ┣ 📂features
- ┃ ┗📜feature_engineering.ipynb                       <- Feature engieering jupyter notebook
+ ┃ ┗📜feature_engineering.ipynb                       <- Feature engineering jupyter notebook
  ┃
  ┗ 📜Model Run with Test Data.ipynb                   <- Trained Random Forest model with Lasso feature selection
 
@@ -30,7 +30,7 @@ Our team aims to detect if a credit card transaction is fraudulent.
  ┃ ┗ 📜test_data.csv                                  <- Test data
  ┃
  ┣ 📂features
- ┃ ┗📜feature_engineering.ipynb                       <- Feature engieering jupyter notebook
+ ┃ ┗📜feature_engineering.ipynb                       <- Feature engineering jupyter notebook
  ┃
  ┗ 📂Models
    ┣ 📜Logistic Regression                            <- Logistic Regression model jupyter notebook
@@ -45,7 +45,7 @@ Our team aims to detect if a credit card transaction is fraudulent.
    ┃ ┗ 📜EDA.ipynb                                    <- Exploratory data analysis for hypothesis and visualisation
    ┃
    ┗ 📂features
-     ┗ 📜feature_engineering.ipynb                    <- Feature engieering jupyter notebook
+     ┗ 📜feature_engineering.ipynb                    <- Feature engineering jupyter notebook
 ```
 
 ## Datasets used:
@@ -77,4 +77,3 @@ Running the files:
     * `/models/<training model>.ipynb`
 * `prod` branch:
     *  `/src/final_model.ipynb`
-    *  `/src/test_final_model.ipynb`
